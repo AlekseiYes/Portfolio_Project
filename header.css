@@ -10,8 +10,14 @@
     }
 }
 @media (max-width: 768px) {
+    .header{
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
     .divider{
         display: block;
+        margin: 0px !important;
     }
     .py-5{
         padding-top: 2rem !important;
