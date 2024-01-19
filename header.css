@@ -1,7 +1,24 @@
 
+@media (max-width: 991px){
+    .mt-5{
+        margin-top: 0rem !important;
+    }
+    .vertical{
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+}
 @media (max-width: 768px) {
-    .header{
-        max-width: 720px;
+    .divider{
+        display: block;
+    }
+    .py-5{
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .pt-3{
+        padding-top: 0rem !important;
     }
     .checkbtn{
         display: block;
@@ -16,6 +33,7 @@
         display: block;
         padding-left: 0px;
         margin-bottom: 5px;
+        margin-top: 5px;
     }
     .nav-list .has-children{
         display: block;
@@ -28,8 +46,9 @@
     #check:checked ~ .nav-list{
         left: 0;
         background-color: #FDC822;
-        max-height: 300px;
+        max-height: 100%;
     }
+
 }
 @media (max-width: 576px){
     .menu{

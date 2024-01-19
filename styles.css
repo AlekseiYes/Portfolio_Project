@@ -19,13 +19,26 @@ body{
 }
 .header{
     background-color: #FDC822;
+    width: 100%;
 }
 .content{
     background-color: #FDC822;
 }
+.content-white{
+    background-color: white;
+}
+.content-black{
+    background-color: black;
+}
+.content-orange{
+    background-color: #E08E14;
+
+}
+
 .main{
     background-color: black;
 }
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -75,6 +88,11 @@ body{
     font-weight: 700;
     color: black;
 }
+.title-white{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
 
 .btn-normal{
     background-color: black;
@@ -85,11 +103,35 @@ body{
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
-    border: none;
+    border: 1px solid black;
 }
 
 .btn-normal:hover{
     background-color: #FDC822;
     color: black;
     border: 1px solid black;
+}
+
+.btn-bottom{
+    padding: 5px;
+    min-width: 300px;
+    border: white 1px solid;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    margin-bottom: 40px;
+
+}
+.btn-bottom:hover{
+    border: 1px solid black;
+}
+.vertical{
+    display: flex;
+    align-items: center;
+}
+
+.divider{
+    background-color: black;
+    display: none;
 }
