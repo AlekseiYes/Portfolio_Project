@@ -8,6 +8,10 @@
         flex-direction: column;
         padding-bottom: 2rem;
     }
+    .btn-secondary{
+        min-width: 100% !important;
+    }
+
 }
 @media (max-width: 768px) {
     .header{
