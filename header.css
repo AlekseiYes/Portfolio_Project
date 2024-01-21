@@ -11,6 +11,13 @@
     .btn-secondary{
         min-width: 100% !important;
     }
+    .divider{
+        display: block !important;
+        margin: 1px !important;
+    }
+    .checkbtn{
+        margin-right: 0 !important;
+    }
 
 }
 @media (max-width: 768px) {
@@ -43,7 +50,6 @@
         display: block;
         padding-left: 0px;
         margin-bottom: 5px;
-        margin-top: 5px;
     }
     .nav-list .has-children{
         display: block;
