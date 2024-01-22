@@ -18,6 +18,9 @@
     .checkbtn{
         margin-right: 0 !important;
     }
+    .reverse{
+        flex-direction: column-reverse;
+    }
 
 }
 @media (max-width: 768px) {
