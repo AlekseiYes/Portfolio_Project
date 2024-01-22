@@ -22,6 +22,11 @@
         flex-direction: column-reverse;
     }
 
+    .px-4{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
 }
 @media (max-width: 768px) {
     .header{
