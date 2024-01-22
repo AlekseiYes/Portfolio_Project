@@ -42,6 +42,7 @@
     list-style-type: none;
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .skill-list li{
