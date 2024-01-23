@@ -78,4 +78,8 @@
     .menu{
         max-width: 540px;
     }
+    .btn-bottom{
+        margin-top: 1rem;
+        width: 100%;
+    }
 }
